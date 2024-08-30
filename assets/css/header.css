@@ -60,6 +60,8 @@
     --blackText: #1A1818;
     --textClr: #52525C;
 
+    --lightBox: #f0f0f0;
+
     --wp: #25D366;
 }
 
@@ -77,6 +79,7 @@ body {
     background-size: cover;
     background-position: center;
     overflow: auto;
+    background-color: var(--bgblue);
 }
 
 a {
@@ -96,7 +99,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 998;

@@ -60,3 +60,118 @@
     font-family: 'Poppins-Light';
     font-weight: 100;
 }
+
+/* ===================================================== */
+
+/* icerik area Start */
+
+.icerik-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 0;
+    margin: 30px 0px;
+    z-index: 4;
+}
+
+.icerik-inside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 70%;
+    min-width: 270px;
+    position: relative;
+    min-height: 130px;
+    transition: all 1s ease;
+    gap: 30px;
+    z-index: 4;
+    margin-top: -130px;
+}
+
+.icerik-left {
+    flex: 1 0 60%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    z-index: 4;
+}
+
+.icerikBoxbg {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    z-index: 4;
+}
+
+.bgColor1 {
+    background-color: var(--lightBox);
+    width: 70%;
+}
+
+.link-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-area a {
+    color: var(--blue-3);
+    font-weight: bold;
+}
+.link-area a:hover {
+    
+}
+
+.icerik-right {
+    flex: 1 0 40%;
+    max-width: 320px;
+    box-sizing: border-box;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 10px;
+    height: max-content;
+    gap: 30px;
+    z-index: 4;
+}
+
+.colorR1 {
+    background-color: #00334e;
+    border: 1px solid #00263a;
+    color: var(--white);
+}
+
+
+
+@media (max-width: 1249px) {
+    .icerik-right {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .icerik-inside {
+        width: 90%;
+    }
+}
+/* icerik area Start */
+
+/* ===================================================== */
