@@ -30,6 +30,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+
 /* ============================================================================== */
 
 :root {
